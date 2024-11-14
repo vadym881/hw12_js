@@ -1,6 +1,6 @@
-const num1 = Number(prompt('Enter 1st number'))
-const num2 = Number(prompt('Enter 2nd number'))
-console.log(summarize(num1)(num2))
+const sum = summarize(5)
+console.log(sum(3))
+console.log(sum(0))
 
 function summarize(num) {
     return function(arg = 1) {
